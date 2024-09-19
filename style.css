@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 100dvh;
+}
+
+.box {
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0,0.1),
+  -10px -10px 10px white;
+}
+
+.box:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0,0.1) inset,
+    -10px -10px 10px white inset;
+}
